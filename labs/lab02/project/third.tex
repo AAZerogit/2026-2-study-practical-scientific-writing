@@ -1,0 +1,68 @@
+% Дополнительный пример: разделы, списки, формулы и таблица.
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+
+% Преамбула: настройки заголовка.
+\title{A more detailed LaTeX example}
+\author{Anton Zero}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Text and formatting}
+This is the first paragraph with \textbf{bold text}, \textit{italic text}
+and a footnote\footnote{This note appears at the bottom of the page.}.
+
+This is a new paragraph. A blank line separates paragraphs in the source.
+The words in Figure~1 are joined by a non-breaking space.
+% Комментарии не выводятся в PDF.
+
+\section{Special characters}
+These commands print special characters:
+\{ \} \$ \% \& \# \_ \textbackslash{} \textasciicircum{} \textasciitilde{}.
+
+Examples: a 15\% discount, a price of 20\$, the filename
+\texttt{my\_file.tex}, item \#1, and \texttt{A\&B}.
+
+\section{Lists}
+% Окружение itemize создаёт маркированный список.
+\begin{itemize}
+  \item Create a file with the extension \texttt{.tex}.
+  \item Save your changes.
+  \item Compile the document and inspect the PDF.
+\end{itemize}
+
+% Окружение enumerate создаёт нумерованный список.
+\begin{enumerate}
+  \item The preamble contains document settings.
+  \item The document body contains text and environments.
+\end{enumerate}
+
+\section{Mathematics}
+An inline formula: \(a^2+b^2=c^2\).
+A numbered equation:
+\begin{equation}
+  \label{eq:quadratic}
+  x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}, \qquad a\ne 0.
+\end{equation}
+A reference to the equation: \eqref{eq:quadratic}.
+% Для правильной ссылки выполните pdflatex дважды.
+
+\section{A small table}
+\begin{center}
+  % l: по левому краю; c: по центру; |: вертикальная линия.
+  % Символ & разделяет столбцы, двойная обратная косая черта завершает строку.
+  \begin{tabular}{|l|c|}
+    \hline
+    File & Purpose \\
+    \hline
+    \texttt{third.tex} & Source text \\
+    \texttt{third.pdf} & Compiled document \\
+    \texttt{third.log} & Compilation log \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\end{document}
