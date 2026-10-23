@@ -1,0 +1,42 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Image transformations}
+
+\subsection{Height: 3.4 cm}
+\begin{center}
+    \includegraphics[height=3.4cm]{../../pix/mbappe.jpg}
+\end{center}
+
+\subsection{Width: 4.6 cm}
+\begin{center}
+    \includegraphics[width=4.6cm]{../../pix/mbappe.jpg}
+\end{center}
+
+\clearpage
+
+\subsection{Clockwise rotation: 22 degrees}
+\begin{center}
+    \includegraphics[
+        width=4cm,
+        angle=-22,
+        origin=c
+    ]{../../pix/mbappe.jpg}
+\end{center}
+
+\subsection{Scale: 0.18}
+\begin{center}
+    \includegraphics[scale=0.18]{../../pix/mbappe.jpg}
+\end{center}
+
+\clearpage
+
+\subsection{Scale: 0.28}
+\begin{center}
+    \includegraphics[scale=0.28]{../../pix/mbappe.jpg}
+\end{center}
+
+\end{document}
