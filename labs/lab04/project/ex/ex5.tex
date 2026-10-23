@@ -1,0 +1,34 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+
+% Distinct numbers make the incorrect reference visible.
+\setcounter{section}{6}
+\setcounter{figure}{1}
+
+\section{Caption and label order}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=4.8cm]{../../pix/mbappe.jpg}
+    \label{fig:before-caption}
+    \caption{First portrait: label BEFORE caption.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=4.8cm]{../../pix/mbappe.jpg}
+    \caption{Second portrait: label AFTER caption.}
+    \label{fig:after-caption}
+\end{figure}
+
+Reference recorded before the caption:
+\ref{fig:before-caption}.
+
+Reference recorded after the caption:
+\ref{fig:after-caption}.
+
+\end{document}

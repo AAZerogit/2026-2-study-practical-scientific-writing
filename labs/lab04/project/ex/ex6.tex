@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+% Section 7, equation 4 and equation 5.
+\setcounter{section}{6}
+\setcounter{equation}{3}
+
+\section{Equation label scope}
+
+\begin{equation}
+    (u-v)^{2}=u^{2}-2uv+v^{2}
+    \label{eq:inside}
+\end{equation}
+
+\begin{equation}
+    \sum_{k=1}^{n}(2k-1)=n^{2}
+\end{equation}
+\label{eq:outside}
+
+Reference with the label inside the environment:
+(\ref{eq:inside}).
+
+Reference with the label outside the environment:
+(\ref{eq:outside}).
+
+\end{document}
