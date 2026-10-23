@@ -1,0 +1,25 @@
+\documentclass[a4paper,12pt,twocolumn]{article}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Anton Zero: width comparison}
+
+Text block width: \the\textwidth.
+
+Current line width: \the\linewidth.
+
+\subsection*{44 percent of textwidth}
+
+\noindent
+\includegraphics[width=0.44\textwidth]{../../pix/mbappe.jpg}
+
+\subsection*{44 percent of linewidth}
+
+\noindent
+\includegraphics[width=0.44\linewidth]{../../pix/mbappe.jpg}
+
+\end{document}
