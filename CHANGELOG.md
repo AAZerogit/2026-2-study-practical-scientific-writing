@@ -1,3 +1,12 @@
+# [5.0.0](https://gitverse.ru/2222/buzzeroanton/2026-2-study-practical-scientific-writing/compare/v4.0.0...v5.0.0) (2026-11-06)
+
+
+### Features
+
+* **lab05:** add table examples and practical exercises ([03eeda1](https://gitverse.ru/2222/buzzeroanton/2026-2-study-practical-scientific-writing/commits/03eeda148503ed2c0f1d57967c354c8c28e016d0))
+* **lab05:** describe table formatting and experimental results ([98b8cba](https://gitverse.ru/2222/buzzeroanton/2026-2-study-practical-scientific-writing/commits/98b8cbaa11857de89208e5b2abd769935e19e3cf))
+* **lab05:** present key techniques for LaTeX tables ([60d7072](https://gitverse.ru/2222/buzzeroanton/2026-2-study-practical-scientific-writing/commits/60d7072d4a2a0a189bb0d047f7b666e3123f4749))
+
 # [4.0.0](https://gitverse.ru/2222/buzzeroanton/2026-2-study-practical-scientific-writing/compare/v3.0.0...v4.0.0) (2026-10-23)
 
 
