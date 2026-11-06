@@ -1,14 +1,14 @@
 {
   "name": "practical-scientific-writing",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Computer Skills for Scientific Writing",
   "main": "index.js",
   "repository": "ssh://git@gitverse.ru:2222/buzzeroanton/2026-2-study-practical-scientific-writing.git",
   "author": "Anton Zero <buzzeroan@gmail.com>",
   "license": "CC-BY-4.0",
-    "config": {
-	"commitizen": {
-	    "path": "cz-customizable"
-	}
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
     }
+  }
 }
